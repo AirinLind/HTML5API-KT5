@@ -1,4 +1,3 @@
-/* Общие стили */
 * {
     box-sizing: border-box;
     margin: 10px;
@@ -17,7 +16,6 @@
     margin: 0;
   }
   
-  /* Стиль для контейнеров и выравнивание */
   .container {
     width: 100%;
     max-width: 600px;
@@ -29,7 +27,6 @@
     text-align: center;
   }
   
-  /* Стиль для кнопок */
   button {
     margin: 10px 5px;
     padding: 12px 20px;
@@ -52,7 +49,6 @@
     cursor: not-allowed;
   }
   
-  /* Стиль для зоны перетаскивания */
   #dropZone {
     width: 100%;
     padding: 30px;
@@ -70,7 +66,6 @@
     color: #483d8b;
   }
   
-  /* Стиль для превью изображений */
   #preview img {
     margin: 10px;
     width: 100px;
