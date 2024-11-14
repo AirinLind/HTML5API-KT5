@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File and Device Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div>
+    <input type="file" id="fileInput" multiple>
+    <div id="preview"></div>
+  </div>
+
+  <div id="dropZone">Перетащите файлы сюда</div>
+
+  <button id="geoButton">Получить местоположение</button>
+  <div id="location"></div>
+
+  <button id="cameraButton">Включить камеру</button>
+  <button id="stopCameraButton" disabled>Выключить камеру</button>
+  <video id="camera" autoplay></video>
+
+  <script src="script.js"></script>
+</body>
+</html>

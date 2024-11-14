@@ -1,0 +1,119 @@
+/* Общие стили */
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  /* Стиль для контейнеров и выравнивание */
+  .container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+  }
+  
+  /* Стиль для кнопок */
+  button {
+    margin: 10px 5px;
+    padding: 12px 20px;
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #836fff;
+    transform: scale(1.05);
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Стиль для зоны перетаскивания */
+  #dropZone {
+    width: 100%;
+    padding: 30px;
+    border: 2px dashed #6a5acd;
+    border-radius: 8px;
+    text-align: center;
+    color: #6a5acd;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  #dropZone.dragover {
+    background-color: #ececff;
+    color: #483d8b;
+  }
+  
+  /* Стиль для превью изображений */
+  #preview img {
+    margin: 10px;
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  #preview img:hover {
+    transform: scale(1.1);
+  }
+  
+  #camera {
+    display: block;
+    margin-top: 20px;
+    max-width: 35%;
+    border: 4px solid #6a5acd;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scaleX(-1);
+    transition: transform 0.2s;
+  }
+  
+    #location {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #555;
+  }
+    input[type="file"] {
+    margin: 20px 0;
+    padding: 12px;
+    border: 1px solid #6a5acd;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input[type="file"]:hover {
+    border-color: #836fff;
+    box-shadow: 0 4px 8px rgba(106, 90, 205, 0.2);
+  }
+  
